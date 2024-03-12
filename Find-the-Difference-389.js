@@ -1,8 +1,8 @@
 var findTheDifference = function(s, t) {
     let x=[]
     for (let i = 0; i < s.length; i++) {
-       for (let j = 0; j < t.length; j++) {
-                    
+       if(s[i]==s[i]){
+        
        }
     }
     return x
