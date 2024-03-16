@@ -1,7 +1,5 @@
 var plusOne = function(digits) {
-  let b= (parseInt(digits.splice(-1))+1).toString().split('')
-  digits.push(b)
-  return digits.flat()  
-};
-let digits =[9,9]
-console.log(plusOne(digits));
+  return (BigInt(digits.join(''))+1n).toString().split('')
+  };
+let digits =[1,2,3]
+plusOne(digits)
